@@ -37,7 +37,7 @@
     "time-grunt": "~1.0.0"
   },
   "scripts": {
-    "test": "grunt"
+    "test": "grunt test"
   },
   "bin": {
     "cachebust": "cli.js"
