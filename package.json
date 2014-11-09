@@ -1,0 +1,49 @@
+{
+  "name": "cachebust",
+  "version": "0.0.0",
+  "main": "lib/cachebust.js",
+  "description": "Append a query string to your assets to bust that cache!",
+  "homepage": "https://github.com/furzeface/cachebust",
+  "bugs": "https://waffle.io/furzeface/cachebust",
+  "author": {
+    "name": "Daniel Furze",
+    "email": "daniel@furzeface.com",
+    "url": "http://daniel.furzeface.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/furzeface/cachebust"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "cachebust",
+    "cache",
+    "HTML",
+    "JavaScript",
+    "CSS",
+    "Query string"
+  ],
+  "dependencies": {
+    "MD5": "^1.2.1",
+    "cheerio": "^0.17.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "cachebust": "cli.js"
+  },
+  "preferGlobal": "true"
+}
