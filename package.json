@@ -45,5 +45,5 @@
   "bin": {
     "cachebust": "cli.js"
   },
-  "preferGlobal": "true"
+  "preferGlobal": false
 }
