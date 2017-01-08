@@ -18,6 +18,13 @@ if (filePath.indexOf('.html') > -1) {
     type: (process.argv[3]) ? process.argv[3] : 'MD5'
   };
 
+  if (options.type === 'constant') {
+    if (process.argv[4] == undefined) {
+      throw new Error('constant should have a 3rd parameter representing value of the constant')
+    }
+    options.value = process.argv[4];
+  }
+
   fs.readFile(filePath, 'utf8', function (err, html) {
     if (err) {
       throw err;
