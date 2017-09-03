@@ -19,8 +19,8 @@ if (filePath.indexOf('.html') > -1) {
   };
 
   if (options.type === 'constant') {
-    if (process.argv[4] == undefined) {
-      throw new Error('constant should have a 3rd parameter representing value of the constant')
+    if (process.argv[4] === undefined) {
+      throw new Error('constant should have a 3rd parameter representing value of the constant');
     }
     options.value = process.argv[4];
   }
