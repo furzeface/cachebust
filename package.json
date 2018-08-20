@@ -1,6 +1,6 @@
 {
   "name": "cachebust",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "main": "lib/cachebust.js",
   "description": "Append a query string to your assets to bust that cache!",
   "homepage": "https://github.com/furzeface/cachebust",
